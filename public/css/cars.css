@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  z-index: 2;
+}
+
+html,
+body,
+section {
+  position: relative;
+  height: 100%;
+}
+
+/*** Navbar ***/
+
+.navbar {
+  position: fixed;
+  background-color: #f1f3ff;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-left: 20px;
+  margin: 2;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: blue;
+}
+
+.button-primary {
+  width: 81px;
+  height: 36px;
+  left: 359px;
+  padding: 8px, 12px, 8px, 12px;
+  color: #ffffff;
+  background-color: #5cb85f;
+  border: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
+  .navbar .navbar-nav {
+    border-top: 1px solid #eeeeee;
+  }
+}
+
+/* jumbroton start */
+
+.jumbotron {
+  padding-top: 80px;
+  background-color: #f1f3ff;
+}
+
+.jumbotron .row {
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron-kiri {
+  margin-left: 60px;
+}
+
+.jumbotron-kiri h1 {
+  font-size: 36px;
+}
+
+.jumbotron-kiri p {
+  font-size: 14px;
+}
+
+.button-lg-primary {
+  font-family: "Helvetica";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 10px;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 1rem;
+  color: #ffffff;
+  background-color: #5cb85f;
+  border: none;
+}
+
+/* Cars filter start */
+
+.cari-mobil {
+  position: relative;
+  margin-top: -50px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.form-select,
+.form-control {
+  font-size: 14px;
+}
+
+#passenger {
+  border-right: none;
+}
+
+#cars-container {
+  margin-top: 50px !important;
+  font-size: 14px;
+}
+
+#not-found {
+  width: 400px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+/* Footer start */
+
+.container-x {
+  min-width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.header {
+  padding: 1px;
+}
+
+.row-x {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  padding: 40px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.footer-col ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.footer-col ul li a:hover {
+  color: blue;
+}
